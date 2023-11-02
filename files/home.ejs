@@ -1,5 +1,51 @@
+<%- include('partials/head.ejs', {title:"home"}) %>
+<%- include('partials/header.ejs') %>
+
 <section>
     <div class="container">
-        
+        <div class="headTitle">
+            <h1>Buy, Sell & trade <br> In Canada</h1>
+            <p>Join the world's most secured crypto exchange</p>
+            <a href="#">Get Started</a>
+            <!-- give link path -->
+        </div>
+        <!-- video content -->
+        <div class ="video-container">
+            <video id="my-video" controls autoplay loop>
+                <source src="../video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- end of video content -->
+        <div class="How-It-Works">
+            <h1>Crypto Trading For Everyone</h1>
+            <p>TheMoon was built to simplify cryptocurrency trading. Beginners can quickly buy and sell 30+ digital assets on our intuitive platform, while experienced or professional traders can take advantage of our advanced features and trading tools. </p>
+            <img src="#" alt=""> 
+            <!-- link the path -->
+        </div>
+        <div class="price-chart">
+            <h1>Price Chart</h1>
+            <p>View real-time price data and comprehensive charts on all tokens.</p>
+            <img src="#" alt=""> 
+            <!-- link the path -->
+        </div>
+        <div class="introduction">
+            <!-- give link -->
+
+            <img src="#" alt="">
+            <div class="introduction-text">
+                <h2> Powerful Crypto Trading Tools </h2>
+                <br>
+                <p> Start building your crypto portfolio on Canada’s most secure trading platform. TheMoon gives you easy access to your digital assets, plus reports that show your trading activity and portfolio growth on a daily, monthly, or yearly basis.
+                    <br>
+                    <br>
+                    You can even set up recurring buys on assets like Bitcoin, Ethereum, and dozens of other coins so you can invest in cryptocurrency on your own schedule. 
+                </p>
+            </div>
+        </div>
     </div>
 </section>
+
+<!-- Path: files/partials/footer.ejs -->
+<%- include('partials/footer.ejs') %>
+

@@ -10,7 +10,22 @@ app.get('/', async (req, res) => {
 
 });
 
-app.get('/about', async (re, res) => {
+app.get('/purchase', async (re, res) => {
+    res.render('about', {});
+});
+app.get('/trade', async (re, res) => {
+    res.render('about', {});
+});
+app.get('/wallet', async (re, res) => {
+    res.render('about', {});
+});
+app.get('/market', async (re, res) => {
+    res.render('about', {});
+});
+app.get('/learn', async (re, res) => {
+    res.render('about', {});
+});
+app.get('/dashboard', async (re, res) => {
     res.render('about', {});
 });
 
