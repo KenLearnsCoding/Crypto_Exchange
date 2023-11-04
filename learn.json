@@ -18,27 +18,27 @@
       },
         {
             "coin": "Litecoin",
-            "introduction": "Litecoin was launched in October 2011 by Charlie Lee, a former Google employee. Lee was inspired by Bitcoin and wanted to create a lighter version of the Bitcoin network. He also wanted to make the network more accessible to the masses. Lee launched the Litecoin network on October 13, 2011, and the first block was mined on October 7, 2011.",
-            "introduction2": "Litecoin was the first cryptocurrency to implement SegWit, a protocol that allows for faster transaction speeds. It was also the first cryptocurrency to implement the Lightning Network, a second-layer protocol that allows for faster and cheaper transactions.",
+            "introduction": "Litecoin (LTC), like many other altcoins, was developed to tackle the shortcomings of the first cryptocurrency, Bitcoin. It takes approximately 10 minutes to mine one new block of transactions on the Bitcoin network. Litecoin was proposed as a Bitcoin spinoff that would increase the transaction speed and solve the network’s scalability issue.",
+            "introduction2": "Charles Lee, a crypto pioneer and a former Google and Coinbase employee, launched Litecoin in 2011. Litecoin was able to reduce the block confirmation time from 10 minutes to only two and a half minutes.",
             "founder": "Charlie Lee",
-            "launch_date": "October 7, 2011",
-            "quote": " I created Litecoin because I wanted to make a better Bitcoin. I never intended to compete against Bitcoin. "
+            "launch_date": "April 28, 2013",
+            "quote": "  My vision is people would use Litecoin every day to buy things. It would just be the payment method of choice. "
         },
         {
             "coin": "Ripple",
-            "introduction": "Ripple was launched in 2012 by Jed McCaleb and Chris Larsen. The network was initially called OpenCoin and was later renamed Ripple Labs. The Ripple network was launched in 2012, and the first Ripple transaction was made in 2013. In 2015, Ripple Labs launched the Interledger Protocol (ILP), which allows for faster and cheaper transactions across different networks.",
-            "introduction2": "Ripple is a real-time gross settlement system (RTGS) that allows for faster and cheaper transactions. It is also a currency exchange and remittance network. The Ripple network is powered by the XRP token, which is used to facilitate transactions on the network.",
+            "introduction": "Ripple has a long history of 16 years, long before Satoshi Nakamoto released the first version of Bitcoin. Ryan Fugger founded Rippleplay, the original brand name of Ripple, to transact money around the world securely.",
+            "introduction2": "In 2012, Jed McCaleb, Arthur Britto, and David Schwartz bought the company and renamed it “OpenCoin” — the company was then renamed “Ripple Labs” in 2013. Two years later, they shortened the name to just “Ripple.",
             "founder": "Jed McCaleb and Chris Larsen",
-            "launch_date": "2012",
-            "quote": " Ripple is a real-time gross settlement system (RTGS) that allows for faster and cheaper transactions. It is also a currency exchange and remittance network. The Ripple network is powered by the XRP token, which is used to facilitate transactions on the network. "
+            "launch_date": "August 4, 2013",
+            "quote": "  Enabling the world to move value like it moves information today.  "
         },
         {
-            "coin": "Tether",
-            "introduction": "Tether was launched in 2014 by Brock Pierce, Reeve Collins, and Craig Sellars. The network was initially called Realcoin and was later renamed Tether. The Tether network was launched in 2014, and the first Tether transaction was made in 2015. In 2015, Tether Labs launched the Interledger Protocol (ILP), which allows for faster and cheaper transactions across different networks.",
-            "introduction2": "Tether is a real-time gross settlement system (RTGS) that allows for faster and cheaper transactions. It is also a currency exchange and remittance network. The Tether network is powered by the XRP token, which is used to facilitate transactions on the network.",
+            "coin": "DogeCoin",
+            "introduction": "In 2013, an Australian marketer and software developer, Jackson Palmer, had the funny idea of combining two tabs open side-by-side on his computer screen. One was CoinMarketCap, a crypto stats website, and the other was an article on a popular meme about the Japanese Shiba Inu dog. He put together both the elements and sent out a tweet about a new cryptocurrency called Dogecoin.",
+            "introduction2": "Shortly afterward, an IBM developer, Billy Markus, approached Jackson on Twitter, asking if he would like to create an actual cryptocurrency named Dogecoin. Palmer agreed, and Dogecoin was officially launched on 6th December 2013. Later, both the founders stepped away from Dogecoin, leaving it entirely in community members’ hands.",
             "founder": "Brock Pierce, Reeve Collins, and Craig Sellars",
             "launch_date": "2014",
-            "quote": " Tether is a real-time gross settlement system (RTGS) that allows for faster and cheaper transactions. It is also a currency exchange and remittance network. The Tether network is powered by the XRP token, which is used to facilitate transactions on the network. "
+            "quote": "  Dogecoin is a decentralized, peer-to-peer digital currency that enables you to easily send money online. Think of it as the internet currency."
         },
         {
             "coin": "shiba inu",
