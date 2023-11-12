@@ -2,12 +2,16 @@ import express from "express";
 
 const port = 3000;
 
+const path = require('path');
+
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'files')));
+app.set("view engine", "ejs");
+
+app.use(express.static(path.join(__dirname, 'views')));
 
 app.get('/', async (req, res) => {
-    res.render('home', {});
+    res.render('home.ejs', {});
 });
 
 // app.get('/purchase', async (re, res) => {
