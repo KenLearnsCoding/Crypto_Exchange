@@ -1,17 +1,17 @@
-import express from "express";
-
+const express = require('express');
+const app = express();
 const port = 3000;
-
 const path = require('path');
 
-const app = express();
-
 app.set("view engine", "ejs");
+app.set('views', path.join(__dirname, 'views'));
 
-app.use(express.static(path.join(__dirname, 'views')));
+// app.use(express.static(path.join(__dirname, 'views')));
 
 app.get('/', async (req, res) => {
-    res.render('home.ejs', {});
+    const style = "./views/css/style.css";
+    
+    res.render('home', { title: 'Home', style: style } );
 });
 
 // app.get('/purchase', async (re, res) => {
