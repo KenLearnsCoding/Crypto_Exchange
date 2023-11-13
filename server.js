@@ -14,24 +14,26 @@ app.get('/', async (req, res) => {
     res.render('home', { title: 'Home', style: style } );
 });
 
-// app.get('/purchase', async (re, res) => {
-//     res.render('purchase', {});
-// });
-// app.get('/trade', async (re, res) => {
-//     res.render('trade', {});
-// });
-// app.get('/wallet', async (re, res) => {
-//     res.render('wallet', {});
-// });
-// app.get('/market', async (re, res) => {
-//     res.render('market', {});
-// });
-// app.get('/learn', async (re, res) => {
-//     res.render('learn', {});
-// });
-// app.get('/dashboard', async (re, res) => {
-//     res.render('dashboard', {});
-// });
+app.get('/purchase', async (re, res) => {
+    res.render('purchase', {title: 'Purchase'});
+});
+app.get('/trade', async (re, res) => {
+    res.render('trade', {title: 'Trade'});
+});
+app.get('/wallet', async (re, res) => {
+    res.render('wallet', {title: 'Wallet'});
+});
+app.get('/market', async (re, res) => {
+    res.render('market', {title: 'Market'});
+});
+
+app.get('/learn', async (re, res) => {
+    res.render('learn', {title: 'Learn'});
+});
+
+app.get('/dashboard', async (re, res) => {
+    res.render('dashboard', {title: 'Dashboard', price: price});
+});
 
 app.listen(port, () => {
     console.log(`Server started on port`);
