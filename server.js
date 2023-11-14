@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, 'views')));
 
 
 app.get('/', async (req, res) => {
-    const style = "./views/css/style.css";
+    const style = "home.css";
     res.render('home', { title: 'Home', style: style } );
 
 });
