@@ -5,6 +5,13 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     margin: 20px;
     padding: 20px;
+}
+
+
+video {
+    height: 100px;
+    width: 100px
 }
