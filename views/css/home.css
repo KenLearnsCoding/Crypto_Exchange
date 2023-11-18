@@ -10,8 +10,21 @@
     padding: 20px;
 }
 
+.first-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;  
+}
+
 
 video {
-    height: 100px;
-    width: 100px
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 0 50px;
+    padding: 0 50px
 }
