@@ -18,7 +18,8 @@ app.get('/', async (req, res) => {
 });
 
 app.get('/purchase', async (re, res) => {
-    res.render('purchase', {title: 'Purchase'});
+    res.render('purchase', {title: 'Purchase', price: 'price'});
+
 });
 app.get('/trade', async (re, res) => {
     res.render('trade', {title: 'Trade'});
