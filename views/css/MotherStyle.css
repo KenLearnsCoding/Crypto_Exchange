@@ -11,6 +11,7 @@ body {
 	font-family: 'Poppins', sans-serif;
     background-color: #97c2e8;
 	height: 130vh;
+    width: 100%;
 }
 
 body a {
