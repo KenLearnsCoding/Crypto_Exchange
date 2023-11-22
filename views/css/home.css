@@ -9,8 +9,8 @@
     padding: 20px 0;
 }
 
-h1{
-    font-size: 32px;
+h2 {
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -25,12 +25,11 @@ p{
     height: 30%;
     justify-content: space-around;
     align-items: center;
-    margin: 10px;
-    padding: 10px;
+    padding: 50px 0 200px;
 }
 
 .first-content h1{
-    font-size: 50px;
+    font-size: 56px;
     font-weight: 700;
     color: #fff;
 }
@@ -40,20 +39,26 @@ p{
     font-weight: 400;
 }
 
-
-video{
-    height: 50%;
-    width: 50%;
+#my-video {
+    height: 40%;
+    width: 40%;
     padding: 0 50px;
+    border-radius: ;
 }
+
+/* video{
+    height: 40%;
+    width: 40%;
+    padding: 0 50px;
+} */
 
 .How-It-Works {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 20px;
-    padding: 20px; 
+    padding: 20px 20px 300px;; 
+    width: 40%;
 }
 
 
@@ -63,7 +68,37 @@ video{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 20px;
-    padding: 20px;
+    padding: 20px 0 300px;
 }
 
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 300px;
+}
+
+.introduction img {
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.introduction-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    margin: 20px;
+}
+
+.hint {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 300px;
+    align-items: center;
+}
+
+.hint p {
+    width: 50%;
+}
