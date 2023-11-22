@@ -35,8 +35,8 @@ nav ul {
     list-style: none;
     justify-content: space-around;
 	align-items: center;
-	gap: 25px;
-    width: 50%;
+	gap: 10px;
+    width: 40%;
 }
 
 nav a {
@@ -44,7 +44,7 @@ nav a {
 	display: flex;
 	align-items: center;
 	color: inherit;
-	gap: 25px;
+
 }
 
 nav .logo {

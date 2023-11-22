@@ -40,10 +40,12 @@ p{
 }
 
 #my-video {
+    border-radius: 25%;
     height: 40%;
     width: 40%;
     padding: 0 50px;
-    border-radius: ;
+
+    
 }
 
 /* video{
