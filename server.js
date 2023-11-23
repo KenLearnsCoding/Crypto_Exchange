@@ -19,7 +19,13 @@ app.get('/', async (req, res) => {
 
 app.get('/purchase', async (re, res) => {
     const style = "css/purchase.css";
-    res.render('purchase', {title: 'Purchase', price: 'price', style: style});
+    const total_amount_buy = '';
+    res.render('purchase', {
+        title: 'Purchase', 
+        price: 'price', 
+        style: style, 
+        totalBuy: total_amount_buy
+    });
 
 });
 app.get('/trade', async (re, res) => {
