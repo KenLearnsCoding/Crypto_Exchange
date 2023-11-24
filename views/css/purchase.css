@@ -15,7 +15,7 @@
     border-radius: 5px;
     display: flex;
     justify-items: space-around ;
-    height: 80%;
+    height: 60%;
 }
 
 .buy_infor {
@@ -87,6 +87,13 @@
     transition: border-color 0.3s ease; 
 }
 
+.buy_section input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-items:baseline;
+}
+
 #buy_with_CAD_amount:focus-within, 
 #buy_with_CAD_amount:hover {
     border-color: #0c0c0c; /* Change form border color when input is focused or has content */
@@ -118,7 +125,7 @@
 }
 
 .main_number {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
     color: #fff;
 }

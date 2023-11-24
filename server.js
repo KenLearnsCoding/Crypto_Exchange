@@ -35,7 +35,8 @@ app.get('/wallet', async (re, res) => {
     res.render('wallet', {title: 'Wallet'});
 });
 app.get('/market', async (re, res) => {
-    res.render('market', {title: 'Market'});
+    const style = "./css/market.css";
+    res.render('market', {title: 'Market', style: style});
 });
 
 app.get('/learn', async (re, res) => {
