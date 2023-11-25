@@ -40,7 +40,13 @@ app.get('/market', async (re, res) => {
 });
 
 app.get('/learn', async (re, res) => {
-    res.render('learn', {title: 'Learn'});
+    const coin = "";
+    const coin_explanation = "";
+    res.render('learn', {
+        title: 'Learn',
+        coin: coin, 
+        coin_explanation: coin_explanation
+    });
 });
 
 app.get('/dashboard', async (re, res) => {
