@@ -3,39 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="files/css/MotherStyle.css">
+    <title>Nav Button with Pop-up Option</title>
+    <style>
+        /* Style for the button and popup container */
+        .nav-button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .popup-container {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Style for individual popup options */
+        .popup-option {
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <header class="nav-bar">
-        <div class="header-left-nav">
-            <img src="" alt="" class="">logo
-            <ul>
-                <li><a href="">Buy Cryptos</a></li>
-                <li><a href="">Markets</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="header-right-nav">
-            
-        </div>
-    </header>
 
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Navigation button -->
+<button class="nav-button" onclick="togglePopup()">Menu</button>
 
-    <footer>
+<!-- Popup container with options -->
+<div class="popup-container" id="popupContainer">
+    <a href="#" class="popup-option">Option 1</a>
+    <a href="#" class="popup-option">Option 2</a>
+    <a href="#" class="popup-option">Option 3</a>
+</div>
 
-    </footer>
+<script>
+    // JavaScript function to toggle the visibility of the popup container
+    function togglePopup() {
+        var popup = document.getElementById("popupContainer");
+        popup.style.display = (popup.style.display === "block") ? "none" : "block";
+    }
 
-    <script src="files/js/script.js"></script>
+    // Close the popup if the user clicks outside of it
+    window.onclick = function(event) {
+        var popup = document.getElementById("popupContainer");
+        if (event.target !== popup && !popup.contains(event.target)) {
+            popup.style.display = "none";
+        }
+    }
+</script>
+
 </body>
 </html>
