@@ -1,63 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nav Button with Pop-up Option</title>
-    <style>
-        /* Style for the button and popup container */
-        .nav-button {
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-        .popup-container {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
 
-        /* Style for individual popup options */
-        .popup-option {
-            padding: 10px;
-            text-decoration: none;
-            display: block;
-            color: #333;
-        }
-    </style>
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
 </head>
-<body>
+<body style="background-color:white;">
 
-<!-- Navigation button -->
-<button class="nav-button" onclick="togglePopup()">Menu</button>
-
-<!-- Popup container with options -->
-<div class="popup-container" id="popupContainer">
-    <a href="#" class="popup-option">Option 1</a>
-    <a href="#" class="popup-option">Option 2</a>
-    <a href="#" class="popup-option">Option 3</a>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
 </div>
 
-<script>
-    // JavaScript function to toggle the visibility of the popup container
-    function togglePopup() {
-        var popup = document.getElementById("popupContainer");
-        popup.style.display = (popup.style.display === "block") ? "none" : "block";
-    }
-
-    // Close the popup if the user clicks outside of it
-    window.onclick = function(event) {
-        var popup = document.getElementById("popupContainer");
-        if (event.target !== popup && !popup.contains(event.target)) {
-            popup.style.display = "none";
-        }
-    }
-</script>
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
 
 </body>
 </html>
