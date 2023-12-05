@@ -40,12 +40,14 @@ app.get('/market', async (re, res) => {
 });
 
 app.get('/learn', async (re, res) => {
+    const style = "./css/learn.css";
     const coin = "";
     const coin_explanation = "";
     res.render('learn', {
         title: 'Learn',
         coin: coin, 
-        coin_explanation: coin_explanation
+        coin_explanation: coin_explanation, 
+        style: style
     });
 });
 

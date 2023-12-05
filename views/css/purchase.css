@@ -64,6 +64,17 @@
     align-items: center;
     outline: none;
     border-radius: 5px;
+    text-align: center;
+}
+
+#buy_sell{
+    width: 30%;
+    height: 5%;
+    margin-bottom: 20px;
+    align-items: center;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .buy_box {
@@ -146,6 +157,7 @@
     text-align: center;
     transition: all 0.2s;
     background-color: white;
+    cursor: pointer;
   }
   
   .bn1:hover {
