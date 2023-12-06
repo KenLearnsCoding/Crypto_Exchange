@@ -28,9 +28,6 @@ app.get('/purchase', async (re, res) => {
     });
 
 });
-app.get('/trade', async (re, res) => {
-    res.render('trade', {title: 'Trade'});
-});
 app.get('/dashboard', async (re, res) => {
     const style = "css/dashboard.css";
     res.render('dashboard', {title: 'Dash Board', style: style});  
@@ -51,11 +48,6 @@ app.get('/learn', async (re, res) => {
         style: style
     });
 });
-
-app.get('/dashboard', async (re, res) => {
-    res.render('dashboard', {title: 'Dashboard', price: price});
-});
-
 app.listen(port, () => {
     console.log(`Server started on port`);
 });
