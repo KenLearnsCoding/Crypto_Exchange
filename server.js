@@ -31,8 +31,9 @@ app.get('/purchase', async (re, res) => {
 app.get('/trade', async (re, res) => {
     res.render('trade', {title: 'Trade'});
 });
-app.get('/wallet', async (re, res) => {
-    res.render('wallet', {title: 'Wallet'});
+app.get('/dashboard', async (re, res) => {
+    const style = "css/dashboard.css";
+    res.render('dashboard', {title: 'Dash Board', style: style});  
 });
 app.get('/market', async (re, res) => {
     const style = "./css/market.css";

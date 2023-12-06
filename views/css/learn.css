@@ -138,22 +138,10 @@
 
 .what_about button:hover {
     color: rgb(255, 255, 255);
-    background-color: #4571aa
+    background-color: rgb(18, 137, 68)
 }
 
-.bn11 {
-    display: inline-block;
-    padding: 0.5em 1.7em;
-    margin: 0 0.1em 0.1em 0;
-    box-sizing: border-box;
-    font-weight: 300;
-    color: #ffffff;
-    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
-    text-align: center;
-    transition: all 0.2s;
-  }
-  
-  .bn11:hover {
-    border-color: rgb(255, 255, 255);
-  }
+.what_about a {
+    font-size: 13.33px;
+}
 

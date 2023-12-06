@@ -31,10 +31,10 @@
                     <option value="#">
                         Select Buy/Sell
                     </option>
-                    <option value="#" id="buy">Buy</option>
-                    <option value="#" id="sell">Sell</option>
+                    <option value="buy">Buy</option>
+                    <option value="sell" >Sell</option>
                 </select>
-                <div class="buy_box">
+                <div id="buy_box" >
                     <!-- give css and js items to select menu -->
                     <form action="#" id="buy_with_CAD_amount">
                         <input type="text" placeholder="Enter Amount of CAD">
@@ -44,13 +44,13 @@
                             <p class="main_number">0 <%= totalBuy %></p>
                         </div>
                     </form>
-                    <button class="bn1">Buy</button>
+                    <button class="bn1 buy">Buy</button>
                         <!-- give js function to this -->
                         <!-- give js function to this -->
                 </div>
     
-                <div class="sell_box">
-                    <form action="#" id="buy_with_CAD_amount">
+                <div id="sell_box">
+                    <form action="type" id="buy_with_CAD_amount">
                         <input type="text" placeholder="Enter Amount of Coin">
                         <!-- give js function to this -->
                         <div  class="receive-amount">
@@ -58,7 +58,7 @@
                             <p class="main_number">0 <%= totalBuy %></p>
                         </div>
                     </form>
-                    <button class="bn1">Sell</button>
+                    <button class="bn1 sell">Sell</button>
                         <!-- give js function to this -->
                         <!-- give js function to this -->
                 </div>

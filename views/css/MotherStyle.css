@@ -25,9 +25,10 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
-    background-color: #97c2e8;
+    height: 10vh;
+    background-color: rgb(243, 147, 105);
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 nav ul {
