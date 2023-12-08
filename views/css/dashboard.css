@@ -171,7 +171,7 @@
     display: flex;
     margin-top: 10px;
     height: auto;
-    width: 900px;
+    width: auto;
     border: #080a0b 1px solid;
     border-radius: 10px;
     background-color: #111;
@@ -225,7 +225,7 @@
     flex-direction: column;
     margin-top: 10px;
     height: 300px;
-    width: 900px;
+    width: auto;
     border: #080a0b 1px solid;
     border-radius: 10px;
     background-color: #111;
